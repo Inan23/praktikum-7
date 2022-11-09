@@ -1,0 +1,42 @@
+/* atur container */
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+/* baris 1 */
+.container .kotak:nth-child(1){
+    background-color: yellow;
+    width: 20%;
+}
+.container .kotak:nth-child(2){
+    background-color: orange;
+    width: 79%;
+}
+.kotak{
+    height: 100px;
+
+/* baris 2 */
+}
+ .isi{
+    height: 400px;
+}
+.item-3{
+    width: 20%;
+    background-color: lightgreen;
+}
+.item-4{
+    width: 58%;
+    background-color: grey;
+}
+.item-5{
+    width: 20%;
+    background-color: lightskyblue;
+} 
+/* baris 3 */
+.kotak-bawah{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    margin-top: 20px;
+}
